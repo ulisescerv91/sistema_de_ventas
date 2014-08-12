@@ -1,0 +1,117 @@
+body{
+	/*background-image: url("imagenes/fondo.JPG");*/
+	background-attachment: fixed;
+	background-color: white;
+
+}
+#logo1{
+
+/*	background-image:url('imagenes/bg.JPG');*/
+	position: fixed;
+	background-color: black;
+	width: 100%;
+	height: 127px;
+	box-shadow:0px 7px 7px rgba(50, 50, 50, 0.75);
+ 
+}
+
+
+#logo{
+
+/*
+	margin-left: 90px;
+	
+	background-color: black;
+	width: 350px;
+	height: 120px;
+
+	float: left;
+	padding-top: 0px;	*/
+	/*border-top-left-radius: 10px;*/
+	/*border-top-right-radius: 10px;*/
+	/*border-color: black;
+	border-style: solid;
+	border-width: 2px;*/
+
+	font-family: courier;
+	margin-left: 200px;
+
+
+	background: white;
+
+
+  	border-top-left-radius:5.8em;
+	border-top-right-radius:5.8em;
+	border-bottom-right-radius:5.8em;
+	border-bottom-left-radius:5.8em;
+
+	border-style: double;
+	border-color: #ed0f48;
+	border-width: 1em;
+  
+  /*-webkit-border-radius: 5.8em;*/
+  color: #ffffff;
+  
+  font-weight: bold;
+  line-height: 1.6em;
+  text-align: center;
+  width: 12.6em; 
+  height: 12em;
+	-webkit-box-shadow: 0px 7px 5px 0px rgba(50, 50, 50, 0.75);
+
+float: left;
+
+	
+
+}
+#titulo{
+
+
+	color: #328efe;
+	/*background-color: #328efe;*/
+	font-family: Trebuchet MS;
+	font-size: 28px;
+	
+	text-shadow: 2px 0px 0px black;
+
+
+	
+
+	
+
+
+}
+
+#mono{
+	/*
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;*/
+
+
+	border-top-left-radius:4em;
+	border-top-right-radius:4em;
+	border-bottom-right-radius:3em;
+	border-bottom-left-radius:3em;
+
+	height: 9em;	
+	width: 12em;
+
+
+
+
+}
+
+
+#fb{
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	border-radius: 5px;
+	height: 30px;
+	width: 30px;
+
+	margin-left: 130px;
+	margin-top: 10px;
+}
+
+

@@ -1,0 +1,139 @@
+    *{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#menutop{
+
+     font-size: 3em;
+    background-color: black;
+    height: 120px;  
+    width: 750px;
+    float: left;
+
+}
+
+#header{
+
+    /*div que contiene el menu*/
+	padding-left: 100px;
+    padding-top: 72px;
+	
+	
+	font-family: arial;
+
+	 border-top-left-radius:0em;
+    border-top-right-radius:0em;
+    border-bottom-right-radius:0em;
+    border-bottom-left-radius:0em;
+
+    background-color: black;
+   /* background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#CCC));*//*Para chrome y Safari*/
+    /*Degradados*/
+
+
+	/*border-color:white red #dadada red;*/
+    
+    
+
+    overflow:hidden;
+    
+    /*width:1210px;*/
+    width:750px;
+
+}
+
+ul,ol{
+	list-style: none;
+}
+
+.nav li a{
+	/*opciones de menu*/
+	text-decoration: none;
+
+
+    border: solid;
+    border-width: 1px;
+    border-color:black #ed0f48 black #ed0f48;
+
+
+	-webkit-border-radius:0px;/*Chrome y Safari*/
+   
+    font-family:verdana;
+    font-size:16px;
+    text-align:center;
+    
+    /*Sombras para texto, los mismos parametros que box-shadow*/
+    text-shadow: 0px 0px 0px red;
+    display: block;
+
+    padding-bottom: 25px;
+
+     
+     
+
+     /* background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#CCC));*//*Para chrome y Safari*/
+    
+
+    /*opciones del menu*/
+      width: 100px;
+      
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    padding-top: 7px;
+    transition:0.4s;
+}
+
+.nav li a:hover{
+    background-color: #0aaad3;
+	/*background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#0aaad3))*/;/*Chrome y Safari*/
+    
+    /*Sombras de un div*/
+    /*-webkit-box-shadow:  1px -1px 0px #999;*//*Chrome y Safari*/
+    padding-top: 12px;
+    border-color:black #ed0f48   black #ed0f48;
+    color: white;
+/*    font-weight: bold;*/
+
+        text-shadow: none;
+        /*para que el cambio se produsca gradualmente*/
+        transition:0.4s;
+    
+}
+
+
+.nav li ul{
+	display: none;
+	position: absolute;
+	min-width: 140px;
+    z-index: 5;
+
+}
+
+.nav > li{
+	float: left;
+
+}
+
+.nav li:hover>ul{
+	display: block;
+
+}
+
+.nav li ul li{
+	position: relative;
+
+}
+
+.nav li ul li ul{
+    /*para cuando sale un submenu no se amontone*/
+	right: -103px;
+	top:0px;
+
+}
+
+
+    

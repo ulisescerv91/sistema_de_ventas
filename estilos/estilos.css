@@ -1,0 +1,273 @@
+nbody{
+	background-image: url("imagenes/fondo.JPG");
+	background-attachment: fixed;
+}
+#logo{
+
+
+	margin-left: 50px;
+	margin-top: 10px;
+	
+	width: 1250px;
+	height: 280px;
+	float: left;
+	padding-top: 0px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	
+	
+
+}
+#titulo{
+	background-color: white;
+	border: solid;
+	border-width: 5px;
+	border-color:red red white red;
+	border-radius: 10px 10px 0px 0px;
+	text-shadow: 5px 5px 5px #FF0000;
+	font: oblique bold 120% cursive;
+	font-size: 80px;
+	width: 1240px;
+	height: 125px;
+	text-align: center;
+	margin-top: 0px;
+
+	
+
+
+}
+
+#mono{
+	
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border: solid;
+	border-width: 5px;
+	border-color:red red white red;
+	float: left;	 
+	height: 140px;
+	margin-top:0px;
+	width: 200px;
+
+
+
+
+}
+#guitarra1{
+	width: 180px;
+	height: 140px;
+	/*rotar imagen*/
+	-webkit-transform: rotate(0deg);	
+	float: left;
+	margin-left: 320px;
+}
+#bateria1{
+	width: 200px;
+	height: 140px;
+	/*rotar imagen*/
+	
+}
+
+#sushi1{
+	height: 90px;
+	width: 120px;
+
+	border-color: black;
+	border: solid;
+	border-width: 1px;
+
+}
+#sushi2{
+	height: 95px;
+	width: 120px;
+	padding-bottom: 10px;
+	margin-left: 0px;
+
+	border-color: black;
+	border: solid;
+	border-width: 1px;
+
+}
+#fb{
+	border-style: solid;
+	border-color: white;
+	border-width: 3px;
+	border-radius: 10px;
+	height: 40px;
+	width: 40px;
+	margin-left: 250px;
+}
+
+
+
+
+nav{
+    /*Bordes redondeados*/
+    
+    border-top-left-radius:0em;
+border-top-right-radius:0em;
+border-bottom-right-radius:2em;
+border-bottom-left-radius:2em;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#CCC));/*Para chrome y Safari*/
+    /*Degradados*/
+
+
+    border: solid;
+	border-width: 5px;
+	border-color:white red #dadada red;
+    background-image: -moz-linear-gradient(top center, #FFF, #CCC);/*Para Firefox*/
+    background-image: -o-linear-gradient(top, #FFF, #CCC);/*Para Opera*/
+    background-image: linear-gradient(top, #FFF, #CCC);/*El estandar por defecto*/
+    overflow:hidden;
+    
+    /*width:1210px;*/
+    width:1240px;
+    margin-left: 50px;
+
+}
+nav ul{
+    list-style:none;
+    margin:0 10px 0 10px;
+    padding:0;
+    margin-left: 60px;
+}
+ 
+ nav ul li{
+    /*Bordes redondeados*/
+    -webkit-border-radius:5px;/*Chrome y Safari*/
+    -moz-border-radius:5px;/*Firefox*/
+    -o-border-radius:5px;/*Opera*/
+    border-radius:5px;/*Estandar por defecto*/
+    float:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:bold;
+    margin-right:10px;
+    text-align:center;
+    /*Sombras para texto, los mismos parametros que box-shadow*/
+    text-shadow: 0px 1px 0px #FFF;
+    margin-left: 50px;
+}
+nav ul li:hover{
+    /*Degradado de fondo*/
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to( #1de977));/*Chrome y Safari*/
+    background-image: -moz-linear-gradient(top center, #FFF, #1de977);/*Firefox*/
+    background-image: -o-linear-gradient(top, #FFF, #1de977);/*Opera*/
+    background-image: linear-gradient(top, #FFF,  #1de977);/*Estandar por defecto*/
+    /*Sombras*/
+    -webkit-box-shadow:  1px -1px 0px #999;/*Chrome y Safari*/
+    -moz-box-shadow:  1px -1px 0px #999;/*Firefox*/
+    -o-box-shadow:  1px -1px 0px #999;/*Opera*/
+    box-shadow:  1px -1px 0px #999;/*Estandar por defecto*/
+    border:1px solid #E3E3E3;
+
+}
+
+nav ul li a{
+    color:#65b031;
+    display:block;
+    padding:10px;
+    text-decoration:none;
+    /*Transiciones*/
+    -webkit-transition: 0.4s linear all;
+    -moz-transition: 0.4s linear all;
+    -o-transition: 0.4s linear all;
+    transition: 0.4s linear all;
+
+}
+ 
+
+ nav ul li a:hover {
+    color:#000;
+}
+
+
+
+
+
+
+
+
+
+
+#menu{
+			
+			
+			margin-left: 50px;
+			width: 1250px;
+			height: 100px;
+
+			border-color: white;
+			border-width: 2px;
+			border-style: solid;
+
+			
+		}
+
+
+
+		ul,li{
+			list-style: none;/*esto es para quitar la biNeta de las listas en este caso a las listas y sus contenidos*/
+
+		}
+
+		.navegacion li a{/*se va a  editar las url q estan dendo tr las listas dela clase navegacion*/
+			color: white;
+			font-size: 30px;
+			background-color: #040026;
+			text-decoration: none;/*para q desaparesca el subrayado*/
+			font-family: impact;
+			padding: 5px 5px;
+			display: block;/*para que cada menu de lista se muestre como blog*/
+			width: 200px;
+			text-align: center;
+
+		}
+
+
+		.navegacion li a:hover{/*cuando el cursor pase sobre un link q esta dentro d una lsita de la classe navegacion  	HOVER cuando 
+			el cursor pase sobre de este*/
+			background-color: red;/*continentes*/
+
+		}
+
+
+		.navegacion li ul li a:hover{/*paises*/
+			background-color: #0cfc14;
+			color: black;
+		}
+
+
+		.navegacion li ul li ul li a:hover{/*estados*/
+			background-color: #fef637;
+			color: blue;
+		}
+
+		.navegacion >li{/*a todos los li(listas ) q estan dentro de navegacion*/
+			float: left;
+
+		}
+
+		.navegacion li ul{ /*se editaran todos las listas de menu*/
+			display: none;/*para que desaparescan */
+			position: absolute;
+			min-width: 250px;/*minimo de archivo*/
+
+
+		}
+
+		.navegacion li:hover>ul{
+			display: block;
+		}
+
+
+		.navegacion li ul li{
+			position: relative;
+
+		}
+
+		.navegacion li ul li ul{
+			top:0px;
+			right: -250px;
+		}
+
